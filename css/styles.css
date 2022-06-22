@@ -139,7 +139,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts__item-mail-tel {
+.contacts__item-connect {
   margin-left: 50px;
 }
 
@@ -191,7 +191,7 @@ body {
   padding-right: 15px;
 }
 
-.studio-title {
+.studio-content-title {
   width: 696px;
   font-weight: 900;
   font-size: 44px;
@@ -203,13 +203,13 @@ body {
   margin-bottom: 30px;
 }
 
-.studio-titlt-text {
+.studio-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.btn-service {
+.studio-content_btn {
   min-width: 200px;
   height: 50px;
   font-family: inherit;
@@ -251,17 +251,17 @@ body {
   visibility: hidden;
 }
 
-.benefits-list {
+.card-list {
   display: flex;
   margin-left: -30px;
 }
 
-.benefits-item {
+.card-list_item {
   width: 270px;
   margin-left: var(--typical-margin);
 }
 
-.benefits-title {
+.card-list_title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -271,7 +271,7 @@ body {
   margin-bottom: 10px;
 }
 
-.benefits-text {
+.card-list_text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -279,7 +279,7 @@ body {
   color: var(--text-color);
 }
 
-.benefits-image {
+.card-list_image {
   width: 270px;
   height: 120px;
   justify-content: center;
@@ -290,7 +290,7 @@ body {
   display: flex;
 }
 
-.benefits-icon {
+.card-list_icon {
   justify-content: center;
   align-items: center;
 }
@@ -302,7 +302,7 @@ body {
   padding-bottom: 94px;
 }
 
-.about-list {
+.work-list {
   display: flex;
 }
 
@@ -316,19 +316,19 @@ body {
   margin-bottom: 50px;
 }
 
-.about-item {
+.work-list_item {
   margin-right: var(--typical-margin);
   position: relative;
 }
 
-.about-top-text {
+.work-list_text {
   height: 70px;
   width: 100%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -356,7 +356,6 @@ body {
   color: var(--title-color);
   margin-bottom: 50px;
 }
-
 .team-list {
   display: flex;
 }
