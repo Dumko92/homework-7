@@ -1,0 +1,228 @@
+
+.footer {
+    height: 252px;
+    background: var(--header-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+  }
+  
+  .web-footer {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+  }
+  
+  .footer-studio {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  
+  .web-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+  }
+  
+  .footer-studio {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--btn-font-color);
+  }
+  
+  .footer-link-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--btn-font-color);
+  }
+  
+  .footer-link-mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footer-link-tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--btn-font-color);
+    margin-bottom: 20px;
+  }
+  
+  .footer-item-mail {
+    margin-top: 9px;
+  }
+  
+  .footer-item-tel {
+    margin-top: 9px;
+  }
+  
+  .footer-bottom-item {
+    width: 230px;
+    height: 80px;
+    margin-left: 60px;
+    margin-top: 12px;
+  }
+  
+  .footer-list {
+    width: 230px;
+    height: 80px;
+    margin-top: 20px;
+  }
+  
+  .footer-address-list {
+    display: flex;
+  }
+  
+  .footer-soc-list {
+    display: flex;
+  }
+  
+  .footer-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+  }
+  
+  .footer-soc-link {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer-soc-icon {
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--btn-font-color);
+  }
+  
+  .footer-soc-link:hover,
+  .footer-soc-link:focus {
+    background-color: var(--accent-color);
+  }
+  
+  .footer-soc-link:hover .footer-soc-icon,
+  .footer-soc-link:focus .footer-soc-icon {
+    fill: #ffffff;
+  }
+  
+  .subscribe {
+    width: 570px;
+    height: 86px;
+    display: flex;
+    margin-left: 80px;
+  }
+  
+  .subscribe-title-email {
+    margin-top: 12px;
+  }
+  
+  .button-subscribe-container {
+    display: flex;
+    margin-top: 48px;
+    margin-left: 10px;
+  }
+  
+  .subscribe-title-top {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-input {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    outline: transparent;
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .subscribe-input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .button-subscribe {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .button-subscribe:hover,
+  .button-subscribe:focus {
+    background-color: #188ce8;
+  }
+  
+  .subscribe-soc-icon {
+    fill: #ffffff;
+    margin-left: 10px;
+  }
