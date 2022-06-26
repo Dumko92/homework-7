@@ -1,12 +1,15 @@
 @import "./utils/vars";
-@import "./hidden";
-@import "./base/reset";
 @import "./components/container";
+@import "./components/list";
+@import "./base/reset";
+@import "./utils/hidden";
 @import "./layout/header";
-@import "./about";
-@import "./clients";
-@import "./footer";
-@import "./studio";
-@import "./benefits";
-@import "./modal";
-@import "./utils/list";
+@import "./layout/about";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/studio";
+@import "./layout/benefits";
+@import "./layout/modal";
+@import "./layout/portfolio";
+@import "./layout/team";
+
